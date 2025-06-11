@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .container {
   width: 1336px;
   margin-left: auto;
@@ -27,7 +32,8 @@
   gap: 32px;
  
 }
-.header__item {
+.header__link:hover, .header__link:focus  {
+  text-decoration-line: underline;
 }
 .header__link {
   color: #0b0803;
@@ -66,6 +72,9 @@
   font-weight: 400;
   line-height: 150%; /* 27px */
   margin-bottom: 32px;
+}
+.hero__button:hover, .hero__button:focus {
+  background: #5f422d;
 }
 .hero__button {
   color: #fff;
@@ -131,6 +140,9 @@
   line-height: 150%; /* 27px */
   width: 640px;
   margin-bottom: 32px;
+}
+.journey__button:hover, .journey__button {
+  background: #5f422d;
 }
 .journey__button {
   color: #fff;
@@ -455,6 +467,9 @@ aspect-ratio: 16/9;
 }
 .input__text {
 }
+.community__button:hover, .community__button {
+  background: #5f422d;
+}
 .community__button {
   color: #fff;
   font-family: "Quicksand";
@@ -531,14 +546,17 @@ width: 1312px;
   max-width: 310px;
  
 }
+
 .visitors__box {
   height: 215px;
+
 }
 .visirors__icons {
   width: 20px;
   height: 18.889px;
   margin-bottom: 24px;
   stroke-width: 1px;
+ 
 }
 .visitors__info {
   color: #0b0803;
@@ -548,6 +566,7 @@ width: 1312px;
   font-weight: 400;
   line-height: 150%; /* 27px */
   width: 246px;
+  
 }
 .visitors__name {
   color: #0b0803;
@@ -701,6 +720,9 @@ height: 24px;
   gap: 32px;
 }
 .footer__item {
+}
+.footer__link:hover, .footer__link:focus  {
+  text-decoration-line: underline;
 }
 .footer__link {
   color: #0b0803;
