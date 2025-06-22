@@ -256,7 +256,7 @@ height: 24px;
   line-height: 150%; /* 24px */
   width: 421.33px;
 }
-/* .moments {
+.moments {
   background: #e0cbb4;
   padding-top: 64px;
   padding-bottom: 64px;
@@ -334,8 +334,8 @@ height: 24px;
   border-radius: 32px;
   background: lightgray 50% / cover no-repeat;
   margin-bottom: 32px;
-} */
-.moments {
+}
+/* .moments {
   background: #e0cbb4;
   padding-top: 64px;
   padding-bottom: 64px;
@@ -409,7 +409,7 @@ aspect-ratio: 16/9;
 .moments__img {
   border-radius:  32px;
  }
- 
+  */
 
 .community {
   background: #e0cbb4;
