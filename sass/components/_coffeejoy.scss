@@ -1,0 +1,95 @@
+.coffeejoy {
+    background: #e0cbb4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+    
+        &__word {
+            color: #0b0803;
+            text-align: center;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            /* 24px */
+            margin-bottom: 16px;
+        }
+    
+        &__title {
+            color: #0b0803;
+            text-align: center;
+            font-family: "Aboreto";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            /* 57.6px */
+            letter-spacing: -0.48px;
+            width: 768px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+    
+        &__text {
+            color: #0b0803;
+            text-align: center;
+            font-family: "Quicksand";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 27px */
+            width: 768px;
+        }
+    
+        &__box {}
+    
+        &__list {
+            display: flex;
+            gap: 24px;
+        }
+    
+        &__item {}
+    
+        &__img {
+            height: 240px;
+            align-self: stretch;
+            width: 421.33px;
+            border-radius: 32px;
+            background: lightgray 50% / cover no-repeat;
+            margin-bottom: 32px;
+        }
+    
+        &__subtitle {
+            color: #0b0803;
+            text-align: center;
+            font-family: "Quicksand";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            /* 30px */
+            width: 421.33px;
+            margin-bottom: 8px;
+        }
+    
+        &__info {
+            color: #0b0803;
+            text-align: center;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+            width: 421.33px;
+        }
+}
+

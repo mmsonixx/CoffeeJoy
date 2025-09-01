@@ -1,0 +1,72 @@
+.visitors {
+    background: #e0cbb4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    &__title {
+            color: #0b0803;
+            font-family: "Aboreto";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            /* 57.6px */
+            letter-spacing: -0.48px;
+            width: 416px;
+            margin-bottom: 24px;
+        }
+    
+        &__container {}
+    
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            width: 1312px;
+        }
+    
+        &__item {
+            border-radius: 32px;
+            border: 1px solid rgba(11, 8, 3, 0.15);
+            background: #c29d84;
+            padding: 32px;
+            max-width: 310px;
+    
+        }
+    
+        &__box {
+            height: 215px;
+    
+        }
+    
+        &__icons {
+            width: 20px;
+            height: 18.889px;
+            margin-bottom: 24px;
+            stroke-width: 1px;
+    
+        }
+    
+        &__info {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 27px */
+            width: 246px;
+    
+        }
+    
+        &__name {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            /* 24px */
+        }
+}
+

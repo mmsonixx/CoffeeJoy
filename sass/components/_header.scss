@@ -1,0 +1,41 @@
+.header {
+    background: #e0cbb4;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        &__ref {}
+    
+        &__icon__logo {
+            width: 84px;
+            height: 36px;
+        }
+    
+        &__nav {}
+    
+        &__list {
+            display: flex;
+            gap: 32px;
+    
+        }
+    
+        &__link:hover,
+        &__link:focus {
+            text-decoration-line: underline;
+        }
+    
+        &__link {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+        }
+}
+

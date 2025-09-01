@@ -1,0 +1,96 @@
+.journey {
+    background: #e0cbb4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    &__container {
+            display: flex;
+            margin-bottom: 80px;
+            justify-content: space-between;
+        }
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__word {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            /* 24px */
+            margin-bottom: 16px;
+        }
+    
+        &__title {
+            color: #0b0803;
+            font-family: "Aboreto";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            /* 57.6px */
+            letter-spacing: -0.48px;
+            width: 640px;
+        }
+    
+        &__box {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__text {
+            color: #0b0803;
+            font-family: Quicksand;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 27px */
+            width: 640px;
+            margin-bottom: 32px;
+        }
+    
+        &__button:hover,
+        &__button {
+            background: #5f422d;
+        }
+    
+        &__button {
+            color: #fff;
+            width: 181px;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+            /* 24px */
+            border-radius: 100px;
+            background: #6f4e37;
+            padding: 10px 24px;
+            box-shadow: 0px 32px 24px 0px rgba(255, 255, 255, 0.05) inset,
+                0px 2px 1px 0px rgba(255, 255, 255, 0.25) inset,
+                0px 0px 0px 1px var(--Opacity-Neutral-Darkest-15, rgba(11, 8, 3, 0.15)) inset,
+                0px -2px 1px 0px rgba(0, 0, 0, 0.2) inset,
+                0px 1px 2px 0px var(--Opacity-Neutral-Darkest-5, rgba(11, 8, 3, 0.05));
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    
+        &__icon {
+            width: 24px;
+            height: 24px;
+        }
+    
+        &__img {
+            align-self: stretch;
+            aspect-ratio: 16/9;
+            border-radius: var(--Radius-Large, 40px);
+            background: lightgray 50% / cover no-repeat;
+        }
+}
+

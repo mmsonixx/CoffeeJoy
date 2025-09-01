@@ -1,0 +1,117 @@
+.community {
+    background: #e0cbb4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    &__container {
+            display: flex;
+            gap: 32px;
+        }
+    
+        &__box {
+            display: flex;
+            flex-direction: column;
+            width: 640px;
+        }
+    
+        &__title {
+            color: #0b0803;
+            font-family: "Aboreto";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            /* 57.6px */
+            letter-spacing: -0.48px;
+    
+            margin-bottom: 24px;
+        }
+    
+        &__text {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 27px */
+            margin-bottom: 32px;
+        }
+    
+        &__field {
+            display: flex;
+        }
+    
+        &__label {}
+    
+        &__input {
+            border-radius: 12px;
+            padding: 8px 12px;
+            border-radius: 12px;
+            border: 1px solid rgba(11, 8, 3, 0.15);
+            background: rgba(255, 255, 255, 0);
+            width: 339px;
+            color: rgba(11, 8, 3, 0.6);
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+        }
+    
+    
+        &__button:hover,
+        &__button {
+            background: #5f422d;
+        }
+    
+        &__button {
+            color: #fff;
+            font-family: "Quicksand";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 150%;
+            /* 24px */
+            border-radius: 100px;
+            background: #6f4e37;
+            box-shadow: 0px 32px 24px 0px rgba(255, 255, 255, 0.05) inset,
+                0px 2px 1px 0px rgba(255, 255, 255, 0.25) inset,
+                0px 0px 0px 1px rgba(11, 8, 3, 0.15) inset,
+                0px -2px 1px 0px rgba(0, 0, 0, 0.2) inset,
+                0px 1px 2px 0px rgba(11, 8, 3, 0.05);
+            padding: 10px 24px;
+            width: 158px;
+            margin-left: 16px;
+            /* background-image: url(./img/community/chevrons-right.webp);
+      background-repeat: no-repeat;
+      background-position: center; */
+            text-align: start;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+    
+        &__icon {
+            width: 24px;
+            height: 24px;
+        }
+    
+        &__info {
+            color: #0b0803;
+            font-family: "Quicksand";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 18px */
+            margin-top: 16px;
+        }
+    
+        &__img {
+            width: 640px;
+            height: 400px;
+            flex: 1 0 0;
+    
+        }
+}
