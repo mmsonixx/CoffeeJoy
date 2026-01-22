@@ -16,23 +16,23 @@
     
         &__word {
             color: #0b0803;
-            font-family: "Quicksand";
-            font-size: 16px;
+              font-family: "Indie Flower", cursive;
+            font-size: 20px;
             font-style: normal;
             font-weight: 600;
             line-height: 150%;
-            /* 24px */
+      text-shadow: 0 0 3px #111010;
             margin-bottom: 16px;
         }
     
         &__title {
             color: #0b0803;
-            font-family: "Aboreto";
+              font-family: "Indie Flower", cursive;
             font-size: 48px;
             font-style: normal;
             font-weight: 400;
             line-height: 120%;
-            /* 57.6px */
+            text-shadow: 0 0 3px #111010;
             letter-spacing: -0.48px;
             width: 640px;
         }
@@ -44,8 +44,8 @@
     
         &__text {
             color: #0b0803;
-            font-family: Quicksand;
-            font-size: 18px;
+             font-family: "Indie Flower", cursive;
+            font-size: 21px;
             font-style: normal;
             font-weight: 400;
             line-height: 150%;
@@ -56,14 +56,15 @@
     
         &__button:hover,
         &__button {
-            background: #5f422d;
+            background: rgba(92, 64, 43, 0.719);
+              
         }
     
         &__button {
             color: #fff;
-            width: 181px;
-            font-family: "Quicksand";
-            font-size: 16px;
+            width: 191px;
+             font-family: "Indie Flower", cursive;
+            font-size: 20px;
             font-style: normal;
             font-weight: 500;
             line-height: 150%;
@@ -71,11 +72,7 @@
             border-radius: 100px;
             background: #6f4e37;
             padding: 10px 24px;
-            box-shadow: 0px 32px 24px 0px rgba(255, 255, 255, 0.05) inset,
-                0px 2px 1px 0px rgba(255, 255, 255, 0.25) inset,
-                0px 0px 0px 1px var(--Opacity-Neutral-Darkest-15, rgba(11, 8, 3, 0.15)) inset,
-                0px -2px 1px 0px rgba(0, 0, 0, 0.2) inset,
-                0px 1px 2px 0px var(--Opacity-Neutral-Darkest-5, rgba(11, 8, 3, 0.05));
+           box-shadow: 0 0 10px 5px rgba(133, 96, 70, 0.623);
             display: flex;
             align-items: center;
             gap: 12px;

@@ -4,13 +4,9 @@
     padding-bottom: 259px;
 
     &__container {
+        margin-left: 50px;
         padding: 40px 40px;
         width: 900px;
-         box-shadow:
-      0 0 15px rgba(202, 167, 121, 0.6) ,
-      0 0 40px rgba(184, 134, 87, 0.15) ;
-          border-radius: 15px;
-          backdrop-filter: blur(10px);
             display: flex;
             flex-direction: column;
         }
@@ -54,7 +50,7 @@
             font-weight: 500;
             line-height: 150%;
            outline: 1px solid #fff;
-            border-radius: 12px;
+            border-radius: 26px;
             padding: 10px 24px;
             background: transparent;
           box-shadow:
