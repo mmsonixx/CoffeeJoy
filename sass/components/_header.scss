@@ -1,5 +1,4 @@
 .header {
-    background: #e0cbb4;
     padding-top: 18px;
     padding-bottom: 18px;
 
@@ -12,30 +11,67 @@
         &__ref {}
     
         &__icon__logo {
-            width: 84px;
+            fill: rgb(240, 237, 234);
+            width: 100px;
             height: 36px;
+             filter: drop-shadow(0 0 2px #ffffff);
         }
     
         &__nav {}
     
         &__list {
             display: flex;
-            gap: 32px;
-    
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            width: 750px;
+            height: 50px;
+    background-image: linear-gradient(to right, rgba(126, 102, 70, 0.5));;
+    border-radius: 25px;
+    box-shadow:
+      0 0 15px rgba(202, 167, 121, 0.6) ,
+      0 0 40px rgba(184, 134, 87, 0.15) ;
+        }
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           width: 120px;
+            height: 30px;
+            
+              box-shadow:
+      0 0 15px rgba(231, 213, 192, 0.6) inset,
+      0 0 40px rgba(224, 198, 164, 0.15) inset;
+      
+    backdrop-filter: blur(10px);
+border-radius: 15px;
+transition-property: transform;
+transition-duration: 1s;
+
+        }
+        &__item:hover {
+            cursor: pointer;
+transition-property: transform;
+transition-duration: 1s;
+  transform: scale(1.1);
+   
         }
     
-        &__link:hover,
-        &__link:focus {
-            text-decoration-line: underline;
-        }
+        
     
         &__link {
-            color: #0b0803;
-            font-family: "Quicksand";
-            font-size: 16px;
+           
+            color: #f5f4f2;
+           font-family: "Indie Flower", cursive;
+            font-size: 22px;
             font-weight: 400;
             line-height: 150%;
             /* 24px */
         }
+}
+.wrapper {
+    background-image: url("../img/hero/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 1100px; 
 }
 

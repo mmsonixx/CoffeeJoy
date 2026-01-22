@@ -47,7 +47,6 @@ button {
 }
 
 .header {
-  background: #e0cbb4;
   padding-top: 18px;
   padding-bottom: 18px;
 }
@@ -57,74 +56,106 @@ button {
   align-items: center;
 }
 .header__icon__logo {
-  width: 84px;
+  fill: rgb(240, 237, 234);
+  width: 100px;
   height: 36px;
+  filter: drop-shadow(0 0 2px #ffffff);
 }
 .header__list {
   display: flex;
-  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 750px;
+  height: 50px;
+  background-image: linear-gradient(to right, rgba(126, 102, 70, 0.5));
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(202, 167, 121, 0.6), 0 0 40px rgba(184, 134, 87, 0.15);
 }
-.header__link:hover, .header__link:focus {
-  text-decoration-line: underline;
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 30px;
+  box-shadow: 0 0 15px rgba(231, 213, 192, 0.6) inset, 0 0 40px rgba(224, 198, 164, 0.15) inset;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 15px;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.header__item:hover {
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 1s;
+  transform: scale(1.1);
 }
 .header__link {
-  color: #0b0803;
-  font-family: "Quicksand";
-  font-size: 16px;
+  color: #f5f4f2;
+  font-family: "Indie Flower", cursive;
+  font-size: 22px;
   font-weight: 400;
   line-height: 150%;
   /* 24px */
 }
 
-.hero {
+.wrapper {
   background-image: url("../img/hero/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 900px;
+  background-size: 100% 1100px;
+}
+
+.hero {
   padding-top: 259px;
   padding-bottom: 259px;
 }
 .hero__container {
-  width: 560px;
+  padding: 40px 40px;
+  width: 900px;
+  box-shadow: 0 0 15px rgba(202, 167, 121, 0.6), 0 0 40px rgba(184, 134, 87, 0.15);
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
 }
 .hero__title {
   color: #fff;
-  font-family: "Aboreto";
-  font-size: 56px;
+  font-family: "Indie Flower", cursive;
+  font-size: 68px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  /* 67.2px */
+  text-shadow: 0 0 5px #ffffff;
   letter-spacing: -0.56px;
   margin-bottom: 24px;
 }
 .hero__text {
   color: #fff;
-  font-family: "Quicksand";
-  font-size: 18px;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-  /* 27px */
   margin-bottom: 32px;
 }
 .hero__button:hover, .hero__button:focus {
-  background: #5f422d;
+  box-shadow: 0 0 15px rgba(216, 211, 206, 0.6), 0 0 40px rgba(131, 129, 126, 0.15);
 }
 .hero__button {
   color: #fff;
-  width: 135px;
-  font-family: "Quicksand";
-  font-size: 16px;
+  width: 140px;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
-  /* 24px */
-  border-radius: 100px;
+  outline: 1px solid #fff;
+  border-radius: 12px;
   padding: 10px 24px;
-  background: #6f4e37;
-  box-shadow: 0px 32px 24px 0px rgba(255, 255, 255, 0.05) inset, 0px 2px 1px 0px rgba(255, 255, 255, 0.25) inset, 0px 0px 0px 1px var(--Opacity-Neutral-Darkest-15, rgba(11, 8, 3, 0.15)) inset, 0px -2px 1px 0px rgba(0, 0, 0, 0.2) inset, 0px 1px 2px 0px var(--Opacity-Neutral-Darkest-5, rgba(11, 8, 3, 0.05));
+  background: transparent;
+  box-shadow: 0 0 15px rgba(218, 207, 194, 0.6) inset, 0 0 40px rgba(136, 132, 126, 0.15) inset;
 }
 
 .journey {

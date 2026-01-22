@@ -1,61 +1,65 @@
 .hero {
-    background-image: url("../img/hero/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 900px;
+   
     padding-top: 259px;
     padding-bottom: 259px;
 
     &__container {
-            width: 560px;
+        padding: 40px 40px;
+        width: 900px;
+         box-shadow:
+      0 0 15px rgba(202, 167, 121, 0.6) ,
+      0 0 40px rgba(184, 134, 87, 0.15) ;
+          border-radius: 15px;
+          backdrop-filter: blur(10px);
             display: flex;
             flex-direction: column;
         }
     
         &__title {
             color: #fff;
-            font-family: "Aboreto";
-            font-size: 56px;
+           font-family: "Indie Flower", cursive;
+            font-size: 68px;
             font-style: normal;
             font-weight: 400;
             line-height: 120%;
-            /* 67.2px */
+            text-shadow: 0 0 5px #ffffff;
             letter-spacing: -0.56px;
             margin-bottom: 24px;
         }
     
         &__text {
             color: #fff;
-            font-family: "Quicksand";
-            font-size: 18px;
+ font-family: "Indie Flower", cursive;
+            font-size: 25px;
             font-style: normal;
             font-weight: 400;
             line-height: 150%;
-            /* 27px */
             margin-bottom: 32px;
+            
         }
     
         &__button:hover,
         &__button:focus {
-            background: #5f422d;
+             box-shadow:
+      0 0 15px rgba(216, 211, 206, 0.6),
+      0 0 40px rgba(131, 129, 126, 0.15);
         }
     
         &__button {
             color: #fff;
-            width: 135px;
-            font-family: "Quicksand";
-            font-size: 16px;
+            width: 140px;
+            font-family: "Indie Flower", cursive;
+            font-size: 20px;
             font-style: normal;
             font-weight: 500;
             line-height: 150%;
-            /* 24px */
-            border-radius: 100px;
+           outline: 1px solid #fff;
+            border-radius: 12px;
             padding: 10px 24px;
-            background: #6f4e37;
-            box-shadow: 0px 32px 24px 0px rgba(255, 255, 255, 0.05) inset,
-                0px 2px 1px 0px rgba(255, 255, 255, 0.25) inset,
-                0px 0px 0px 1px var(--Opacity-Neutral-Darkest-15, rgba(11, 8, 3, 0.15)) inset,
-                0px -2px 1px 0px rgba(0, 0, 0, 0.2) inset,
-                0px 1px 2px 0px var(--Opacity-Neutral-Darkest-5, rgba(11, 8, 3, 0.05));
+            background: transparent;
+          box-shadow:
+      0 0 15px rgba(218, 207, 194, 0.6) inset,
+      0 0 40px rgba(136, 132, 126, 0.15) inset;
         }
 }
 
